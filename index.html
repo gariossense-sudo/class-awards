@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Awards 2026</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <main class="app">
+    <section id="home" class="screen active">
+      <div class="logo">🏆</div>
+      <p class="label">GRADUATION EDITION • 2026</p>
+      <h1>CLASS<br><span>AWARDS</span></h1>
+      <p class="lead">Satu kelas. Banyak cerita. Dan penghargaan untuk orang-orang yang membuat semuanya berkesan.</p>
+      <button id="startBtn" class="gold-btn">MULAI ACARA <b>→</b></button>
+      <p class="tiny">Best viewed on mobile or desktop</p>
+    </section>
+
+    <section id="award" class="screen">
+      <header class="header">
+        <span>CLASS AWARDS 2026</span>
+        <span id="progress">01 / 10</span>
+      </header>
+
+      <div id="stage" class="stage">
+        <p class="label" id="category">THE COMEDIAN</p>
+        <div class="icon" id="icon">😂</div>
+        <h2>AND THE AWARD<br>GOES TO...</h2>
+
+        <div id="countdown" class="countdown">3</div>
+
+        <div id="reveal" class="reveal hidden">
+          <div class="photo-wrap">
+            <img id="winnerPhoto" src="" alt="Foto pemenang">
+            <div id="photoFallback" class="photo-fallback">👤</div>
+          </div>
+          <p class="winner-name" id="winnerName">Nama Teman</p>
+          <p class="desc" id="description">Deskripsi penghargaan.</p>
+        </div>
+
+        <button id="nextBtn" class="gold-btn hidden">AWARD BERIKUTNYA <b>→</b></button>
+      </div>
+    </section>
+
+    <section id="final" class="screen">
+      <div class="final-trophy">🏆</div>
+      <p class="label">THE FINAL AWARD</p>
+      <h1>THE BEST<br><span>CLASS</span></h1>
+      <p class="lead">Tiga tahun, ratusan cerita, ribuan tawa. Terima kasih telah menjadi bagian dari perjalanan ini.</p>
+      <div class="class-box">
+        <strong>CLASS XII — [NAMA KELAS]</strong>
+        <span>Three years. Countless memories.</span>
+      </div>
+      <button id="restartBtn" class="gold-btn">ULANGI ACARA <b>↻</b></button>
+      <p class="tiny">Made with memories • 2026</p>
+    </section>
+  </main>
+
+  <div id="confetti"></div>
+  <script src="script.js"></script>
+</body>
+</html>
